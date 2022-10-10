@@ -1,0 +1,43 @@
+--
+Cosas que debo instalar:
+
+Para crear la aplicación react
+->  npx create-react-app delicious
+
+Para iniciar el "server"
+->  npm start
+
+Debo borrar todas los files, salvo:
+->  App.js
+->  index.css
+->  index.js
+
+Para utilizar la api de spoonacular, debo crear un archivo .env
+->  Dentro del archivo .env, debo crear una variable con la key de la API
+	REACT_APP_API_KEY = nro_que_entrega_api
+
+Luego creamos dos carpetas
+->  Components
+->  Pages
+
+Dentro de la carpeta Components creamos dos archivos
+->  Popular.jsx
+->  Veggie.jsx
+
+Dentro de la carpeta Pages creamos dos archivos
+->  Home.jsx
+->  Pages.jsx
+
+
+--------------------------------------------------------------
+Instalamos mas cosas
+
+->  npm install framer-motion
+
+Podemos instalar varios a la vez
+
+->  npm install react-icons react-router-dom styled-components
+
+Instalamos react-splide para hacer un carrusel
+
+->  npm install @splidejs/react-splide   
